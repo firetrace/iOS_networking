@@ -33,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UITabBar.appearance().tintColor = color
         
+        DispatchQueue.global().async { for _ in 0...6 { NetworkService.dataTask(config: AppConfiguration.random()) } }        
+        
         return true
     }
 }

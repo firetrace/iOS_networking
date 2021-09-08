@@ -24,6 +24,8 @@
 		45DC50A425B076B200A6F692 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC50A325B076B200A6F692 /* HabitViewController.swift */; };
 		45DC50A725B0797E00A6F692 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC50A625B0797E00A6F692 /* HabitView.swift */; };
 		45DC50AF25B0B1BB00A6F692 /* HabitDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DC50AE25B0B1BB00A6F692 /* HabitDelegate.swift */; };
+		45E16F5D25FA58AE00A69A87 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E16F5C25FA58AE00A69A87 /* NetworkService.swift */; };
+		45E16F6025FA5BC100A69A87 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E16F5F25FA5BC100A69A87 /* AppConfiguration.swift */; };
 		845D746025CAA2510037B016 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D745F25CAA2510037B016 /* CellModel.swift */; };
 		849E582625B6D1E30065A998 /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E582525B6D1E30065A998 /* HabitDetailsViewController.swift */; };
 		849E582D25B6ED4E0065A998 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E582C25B6ED4E0065A998 /* HabitTableViewCell.swift */; };
@@ -52,6 +54,8 @@
 		45DC50A325B076B200A6F692 /* HabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewController.swift; sourceTree = "<group>"; };
 		45DC50A625B0797E00A6F692 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 		45DC50AE25B0B1BB00A6F692 /* HabitDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDelegate.swift; sourceTree = "<group>"; };
+		45E16F5C25FA58AE00A69A87 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		45E16F5F25FA5BC100A69A87 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		845D745F25CAA2510037B016 /* CellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
 		849E582525B6D1E30065A998 /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
 		849E582C25B6ED4E0065A998 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				454CBFB8258C8C8F00D2CD16 /* Assets.xcassets */,
 				454CBFBA258C8C8F00D2CD16 /* LaunchScreen.storyboard */,
 				454CBFBD258C8C8F00D2CD16 /* Info.plist */,
+				45E16F5C25FA58AE00A69A87 /* NetworkService.swift */,
+				45E16F5F25FA5BC100A69A87 /* AppConfiguration.swift */,
 			);
 			path = MyHabits;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 				45DC50A725B0797E00A6F692 /* HabitView.swift in Sources */,
 				45966FF9258CEAD0007A3B5A /* NavigationViewController.swift in Sources */,
 				454CBFC6258C906400D2CD16 /* HabitsStore.swift in Sources */,
+				45E16F5D25FA58AE00A69A87 /* NetworkService.swift in Sources */,
 				849E583625B8073A0065A998 /* HabitModel.swift in Sources */,
 				45966FEC258CE25A007A3B5A /* HabitsViewController.swift in Sources */,
 				849E582625B6D1E30065A998 /* HabitDetailsViewController.swift in Sources */,
@@ -273,6 +280,7 @@
 				84C8552B25DAC097008DF06C /* InfoModel.swift in Sources */,
 				45DC50A425B076B200A6F692 /* HabitViewController.swift in Sources */,
 				45966FF6258CEA78007A3B5A /* TabBarViewController.swift in Sources */,
+				45E16F6025FA5BC100A69A87 /* AppConfiguration.swift in Sources */,
 				4588853825B1BACD004403B8 /* CellProtocol.swift in Sources */,
 				45DC509B25B0358900A6F692 /* HabitsExtension.swift in Sources */,
 				45966FEF258CE268007A3B5A /* InfoViewController.swift in Sources */,
