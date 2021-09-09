@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         appearance.titleTextAttributes = [.foregroundColor: UIColor.black]
         appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
 
-        let color = getColorStyle(style: .magenta)
+        let color = UIColor.init(red: 161/255, green: 22/255, blue: 204/255, alpha: 1)
         
         UINavigationBar.appearance().tintColor = color
         UINavigationBar.appearance().standardAppearance = appearance
@@ -32,9 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().prefersLargeTitles = true
         
         UITabBar.appearance().tintColor = color
-        
-        DispatchQueue.main.async { for _ in 0...6 { NetworkService.dataTask(config: AppConfiguration.randomModelsExample1()) } }
-        
+                
         return true
     }
 

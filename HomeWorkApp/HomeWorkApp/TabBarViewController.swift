@@ -16,10 +16,14 @@ class TabBarViewController: UITabBarController {
     }
 
     private func setup() {
-        let infoViewController = InfoViewController()
+        let infoTaskOneViewController = InfoViewController(task: Task.One)
+        let infoTaskTwoViewController = InfoViewController(task: Task.Two)
+        let infoTaskThreeViewController = InfoViewController(task: Task.Three)
         
-        infoViewController.tabBarItem = UITabBarItem(title: "Информация", image: UIImage(systemName: "info.circle.fill"), tag: 1)
+        infoTaskOneViewController.tabBarItem = UITabBarItem(title: "Задание №1", image: UIImage(systemName: "info.circle.fill"), tag: 1)
+        infoTaskTwoViewController.tabBarItem = UITabBarItem(title: "Задание №2", image: UIImage(systemName: "info.circle.fill"), tag: 2)
+        infoTaskThreeViewController.tabBarItem = UITabBarItem(title: "Задание №3", image: UIImage(systemName: "info.circle.fill"), tag: 3)
         
-        viewControllers = [infoViewController]
+        viewControllers = [infoTaskOneViewController, infoTaskTwoViewController, infoTaskThreeViewController]
     }
 }
