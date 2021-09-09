@@ -14,6 +14,8 @@
 		841FE97C26EA2CAD00EBDBCC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FE97B26EA2CAD00EBDBCC /* TabBarViewController.swift */; };
 		841FE98126EA2D3F00EBDBCC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FE98026EA2D3F00EBDBCC /* InfoViewController.swift */; };
 		841FE98326EA2D6C00EBDBCC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FE98226EA2D6C00EBDBCC /* InfoView.swift */; };
+		84C3079B26EA37A5005F08B4 /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3079A26EA37A5005F08B4 /* AppExtension.swift */; };
+		84C3079E26EA37F5005F08B4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3079D26EA37F5005F08B4 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		841FE97B26EA2CAD00EBDBCC /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		841FE98026EA2D3F00EBDBCC /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		841FE98226EA2D6C00EBDBCC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		84C3079A26EA37A5005F08B4 /* AppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		84C3079D26EA37F5005F08B4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		841FE96426EA2BBC00EBDBCC /* HomeWorkApp */ = {
 			isa = PBXGroup;
 			children = (
+				84C3079C26EA37D5005F08B4 /* Services */,
+				84C3079926EA3780005F08B4 /* Helpers */,
 				841FE97D26EA2CBE00EBDBCC /* Home screen scene */,
 				841FE96526EA2BBC00EBDBCC /* AppDelegate.swift */,
 				841FE96E26EA2BBD00EBDBCC /* Assets.xcassets */,
@@ -92,6 +98,22 @@
 				841FE98026EA2D3F00EBDBCC /* InfoViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84C3079926EA3780005F08B4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84C3079A26EA37A5005F08B4 /* AppExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84C3079C26EA37D5005F08B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84C3079D26EA37F5005F08B4 /* NetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +188,9 @@
 				841FE97A26EA2C9A00EBDBCC /* NavigationViewController.swift in Sources */,
 				841FE97C26EA2CAD00EBDBCC /* TabBarViewController.swift in Sources */,
 				841FE98126EA2D3F00EBDBCC /* InfoViewController.swift in Sources */,
+				84C3079B26EA37A5005F08B4 /* AppExtension.swift in Sources */,
 				841FE98326EA2D6C00EBDBCC /* InfoView.swift in Sources */,
+				84C3079E26EA37F5005F08B4 /* NetworkService.swift in Sources */,
 				841FE96626EA2BBC00EBDBCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
